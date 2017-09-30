@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TestingGrounds.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{15387AE3-7908-4CA2-9C74-8B4AF2C28870}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TestingGrounds.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TestingGroundsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{52AA0715-5F38-415D-B925-F220603478E7}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TestingGrounds">
+			<UniqueIdentifier>{39A03FCE-FCB2-4281-8830-84D1BACBB912}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TestingGrounds\TestingGrounds.Build.cs">
+			<Filter>Source\TestingGrounds</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TestingGrounds\TestingGrounds.cpp">
+			<Filter>Source\TestingGrounds</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TestingGrounds\TestingGrounds.h">
+			<Filter>Source\TestingGrounds</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TestingGrounds\TestingGroundsGameModeBase.cpp">
+			<Filter>Source\TestingGrounds</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TestingGrounds\TestingGroundsGameModeBase.h">
+			<Filter>Source\TestingGrounds</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
